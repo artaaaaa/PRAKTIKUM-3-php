@@ -1,6 +1,6 @@
-<?php 
-    echo("-----------------------------------------<br>");
-    echo("Praktikum Pemrograman Web PNL<br>");
-    echo("-----------------------------------------<br>");
-    echo("<br>");
+<?php
+for ($b = 1; $b < 5; $b++) {
+    include("contoh_include.php");
+    // Include bisa dipanggil lebih dari 1x
+}
 ?>

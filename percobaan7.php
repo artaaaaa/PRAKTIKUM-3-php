@@ -1,8 +1,8 @@
-<?php 
+<?php
     $str = "Belajar PHP ternyata menyenangkan";
-    echo strtolower($str); //Ubah huruf kecil semua
+    echo strtolower($str); // Ubah huruf kecil semua
     echo "<br>";
-    echo strtupper($str); //Ubah huruf ke besar semua
+    echo strtoupper($str); // Ubah huruf ke besar semua
     echo "<br>";
-    echo str_replace("Menyenangkan","Mudah lho",$str); //mengganti string
+    echo str_replace("menyenangkan", "mudah lho", $str); // Mengganti string
 ?>
